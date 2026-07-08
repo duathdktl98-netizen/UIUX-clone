@@ -5,17 +5,31 @@ header {
     border: 1px solid orange;
     display: flex;
     justify-content: space-between;
-    padding: 50px 300px;
+    align-items: center;
+    height: 88px;
+    padding-left: 370px; padding-right: 370px;
+}
+.logo-menu01 {
+    border: 1px solid orange;
+    display: flex; gap: 60px;
 }
 .logo-box {
     border: 1px solid green;
+}
+.logo-box img {
+    width: 200px;
 }
 .menu01 {
     border: 1px solid green;
 }
 .menu01-ul {
     display: flex;
+    gap: 34px;
+    align-items: center;
+    height: 100%;
 }
 .download-btn {
     border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px 10px;
 }
