@@ -1,0 +1,21 @@
+header {
+    border: 1px solid red;
+}
+.top-bar {
+    border: 1px solid orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 300px;
+}
+.logo-box {
+    border: 1px solid green;
+}
+.menu01 {
+    border: 1px solid green;
+}
+.menu01-ul {
+    display: flex;
+}
+.download-btn {
+    border: 1px solid #000;
+}
