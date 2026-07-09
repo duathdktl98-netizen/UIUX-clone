@@ -28,8 +28,20 @@ header {
     align-items: center;
     height: 100%;
 }
+.m01-item01 > a {
+    display: flex; gap: 6px;
+}
+.m01-item03 > a {
+    display: flex; gap: 6px;
+}
 .download-btn {
     border: 1px solid #000;
     border-radius: 20px;
     padding: 5px 10px;
+    display: flex; gap: 5px;
+    align-items: center;
+    justify-content: center;
 }
+/* .download-btn > img {
+    border: 1px solid red;
+} */
