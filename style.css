@@ -9,9 +9,10 @@ header {
     height: 88px;
     padding-left: 300px; padding-right: 300px;
 }
-.logo-menu01 {
+.logo-menu {
     border: 1px solid orange;
     display: flex; gap: 60px;
+    align-items: center;
 }
 .logo-box {
     border: 1px solid green;
@@ -26,13 +27,11 @@ header {
     display: flex;
     gap: 34px;
     align-items: center;
-    height: 100%;
 }
-.m01-item01 > a {
+.m01-item > a {
     display: flex; gap: 6px;
-}
-.m01-item03 > a {
-    display: flex; gap: 6px;
+    align-items: center;
+    padding-top: 10px; padding-bottom: 10px;
 }
 .download-btn {
     border: 1px solid #000;
@@ -41,7 +40,8 @@ header {
     display: flex; gap: 5px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
-/* .download-btn > img {
+svg {
     border: 1px solid red;
-} */
+}
