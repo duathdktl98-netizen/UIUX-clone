@@ -7,7 +7,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 88px;
-    padding-left: 300px; padding-right: 300px;
+    padding-left: 360px; padding-right: 360px;
 }
 .logo-menu {
     border: 1px solid orange;
@@ -25,23 +25,55 @@ header {
 }
 .menu01-ul {
     display: flex;
-    gap: 34px;
+    gap: 42px;
     align-items: center;
+}
+.m01-item {
+    font-size: 16px;
 }
 .m01-item > a {
     display: flex; gap: 6px;
     align-items: center;
-    padding-top: 10px; padding-bottom: 10px;
+}
+.m01-item img {
+    width: 20px;
+}
+.m01-item01:hover {
+    font-weight: 700;
+}
+.m01-item01:hover  img {
+    transform: rotate(180deg);
+}
+.m01-item03:hover {
+    font-weight: 700;
+}
+.m01-item03:hover  img {
+    transform: rotate(180deg);
+}
+.m01-item04 a {
+    font-weight: 500;
+}
+.m01-item04 img {
+    width: 20px;
 }
 .download-btn {
     border: 1px solid #000;
     border-radius: 20px;
-    padding: 5px 10px;
-    display: flex; gap: 5px;
+    padding: 5px 15px;
+    display: flex; gap: 3px;
     align-items: center;
-    justify-content: center;
     cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px; font-weight: 600;
 }
-svg {
-    border: 1px solid red;
+.arrow-icon {
+    width: 20px;
 }
+.download-btn:hover {
+    background: #000;
+    color : white;
+}
+.download-btn:hover > svg {
+    transform: rotate(180deg);
+}
+
