@@ -37,6 +37,7 @@ header {
 }
 .m01-item img {
     width: 20px;
+    transform: translateY(+1px);
 }
 .m01-item01:hover {
     font-weight: 700;
@@ -59,7 +60,7 @@ header {
 .download-btn {
     border: 1px solid #000;
     border-radius: 20px;
-    padding: 5px 15px;
+    padding: 5px 20px;
     display: flex; gap: 3px;
     align-items: center;
     cursor: pointer;
@@ -68,6 +69,7 @@ header {
 }
 .arrow-icon {
     width: 20px;
+    transform: translateY(+1px);
 }
 .download-btn:hover {
     background: #000;
