@@ -1,66 +1,60 @@
-header {
-    border: 1px solid red;
-}
 .top-bar {
     border: 1px solid orange;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 88px;
-    padding-left: 360px; padding-right: 360px;
+    padding-left: 250px; padding-right: 250px;
 }
 .logo-menu {
-    border: 1px solid orange;
-    display: flex; gap: 60px;
+    display: flex; gap: 80px;
     align-items: center;
 }
-.logo-box {
-    border: 1px solid green;
-}
 .logo-box img {
-    width: 200px;
+    height: 30px;
 }
 .menu01 {
-    border: 1px solid green;
+    height: 100%;
 }
 .menu01-ul {
     display: flex;
     gap: 42px;
     align-items: center;
 }
-.m01-item {
-    font-size: 16px;
-}
-.m01-item > a {
+.m01-item a {
     display: flex; gap: 6px;
     align-items: center;
+    font-size: 16px;
+    padding-top: 10px; padding-bottom: 10px;
 }
-.m01-item img {
+.m01-arrow-icon {
     width: 20px;
-    transform: translateY(+1px);
+    transform: translateY(1px);
 }
-.m01-item01:hover {
-    font-weight: 700;
+.m01-arrow-icon:hover {
+    transform: translateY(1px) rotate(180deg); 
 }
-.m01-item01:hover  img {
-    transform: rotate(180deg);
+.m01-item01 { 
+    border: 1px solid red;
+    position: relative;
 }
-.m01-item03:hover {
-    font-weight: 700;
-}
-.m01-item03:hover  img {
-    transform: rotate(180deg);
-}
-.m01-item04 a {
-    font-weight: 500;
-}
-.m01-item04 img {
-    width: 20px;
+.m01-item01:hover > a {font-weight: 700;}
+.m01-item03:hover > a{font-weight: 700;}
+.m01-item04 > a {font-weight: 500;}
+.m01-item04:hover > a {font-weight: 700;}
+.menu02-ul {
+    border: 1px solid green;
+    position: absolute;
+    left: 0; top: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
 }
 .download-btn {
     border: 1px solid #000;
     border-radius: 20px;
-    padding: 5px 20px;
+    padding: 6px 18px;
     display: flex; gap: 3px;
     align-items: center;
     cursor: pointer;
@@ -69,13 +63,13 @@ header {
 }
 .arrow-icon {
     width: 20px;
-    transform: translateY(+1px);
+    transform: translateY(1px);
 }
 .download-btn:hover {
     background: #000;
     color : white;
 }
 .download-btn:hover > svg {
-    transform: rotate(180deg);
+    transform: translateY(1px) rotate(180deg);
 }
 
