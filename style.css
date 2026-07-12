@@ -1,10 +1,13 @@
 .top-bar {
     border: 1px solid orange;
+    background-color: #FFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 88px;
     padding-left: 250px; padding-right: 250px;
+    position: fixed;
+    left: 0; right: 0;
 }
 .logo-menu {
     display: flex; gap: 80px;
@@ -54,6 +57,7 @@
 .m01-item01:hover > .menu02-ul {
     height: 150px;
 }
+.m02-icon01, .m02-icon02 {width: 25px;}
 .download-btn {
     border: 1px solid #000;
     border-radius: 20px;
