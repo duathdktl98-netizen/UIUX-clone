@@ -32,7 +32,7 @@
     gap: 42px;
     align-items: center;
 }
-.m01-item a {
+.m01-item > a {
     display: flex; gap: 6px;
     align-items: center;
     font-size: 16px;
@@ -45,40 +45,68 @@
 .m01-arrow-icon:hover {
     transform: translateY(1px) rotate(180deg); 
 }
-.m01-item01 { 
-    border: 1px solid red;
-    position: relative;
-}
-.m01-item03 {
-    border: 1px solid red;
-    position: relative;
-}
+.m01-item01 { position: relative;}
+.m01-item03 {position: relative;}
 .m01-item01:hover > a {font-weight: 700;}
 .m01-item03:hover > a{font-weight: 700;}
 .m01-item04 > a {font-weight: 500;}
 .m01-item04:hover > a {font-weight: 700;}
+.product-menu {
+    position: absolute;
+    left: -30px; top: 100%; 
+    visibility: hidden;
+    background-color: #FFFF;
+    border: 1px solid #d4d4d4;
+    border-radius: 12px;
+    padding: 28px 24px;
+    width: 310px;
+}
+.m01-item01:hover > .product-menu {
+    visibility: visible;
+}
 .product-menu-ul {
-    border: 1px solid green;
-    position: absolute;
-    left: 0; top: 100%; 
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    height: 0; width: 320px;
-    overflow: hidden;
+    gap: 14px;
 }
-.m01-item01:hover > .product-menu-ul {
-    height: 150px;
+.product-item > a {
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+    font-size: 19px; font-weight: 700;
 }
-.p-icon01, .p-icon02 {width: 25px;}
-.comu-menu-ul {
-    border: 1px solid green;
+.product-item  span {
+    color: gray;
+}
+.product-item:hover {
+    color: blue;
+}
+.p-icon01, .p-icon02 {width: 24px;}
+.comu-menu {
     position: absolute;
-    left: 0; 
-    width: 300px; 
+    left: -30px; top: 100%;
+    width: 180px;
+    visibility: hidden;
+    padding: 28px 24px;
+    background-color: #FFFF;
+    border: 1px solid #d4d4d4;
+    border-radius: 12px;
+}
+.m01-item03:hover > .comu-menu {
+    visibility: visible;
+}
+.comu-menu-ul {
+    display: flex; gap: 10px;
+    flex-direction: column;
 }
 .comu-item > a {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-size: 19px; font-weight: 700;
+}
+.comu-item:hover {
+    color: blue;
 }
 .comu-icon {
     width: 24px;
