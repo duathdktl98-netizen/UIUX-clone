@@ -111,6 +111,10 @@
 .comu-icon {
     width: 24px;
 }
+.download-box {
+    border: 1px solid red;
+    position: relative;
+}
 .download-btn {
     border: 1px solid #000;
     border-radius: 20px;
@@ -121,10 +125,6 @@
     transition: 0.3s;
     font-size: 14px; font-weight: 600;
 }
-.arrow-icon {
-    width: 20px;
-    transform: translateY(1px);
-}
 .download-btn:hover {
     background: #000;
     color : white;
@@ -132,4 +132,22 @@
 .download-btn:hover > svg {
     transform: translateY(1px) rotate(180deg);
 }
+.arrow-icon {
+    width: 20px;
+    transform: translateY(1px);
+}
+.download-menu {
+    position: absolute;
+    right: 0; top: calc(100% + 10px);
+    width: 400px;
+}
+.top-menu {
+    border: 1px solid blue;
+    padding: 20px;
+}
+.bottom-menu {
+    border: 1px solid blue;
+    padding: 20px;
+}
+
 
