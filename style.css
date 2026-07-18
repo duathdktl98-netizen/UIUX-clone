@@ -54,7 +54,7 @@
 .product-menu {
     position: absolute;
     left: -30px; top: 100%; 
-    visibility: hidden;
+    display: none;
     background-color: #FFFF;
     border: 1px solid #d4d4d4;
     border-radius: 12px;
@@ -62,7 +62,7 @@
     width: 310px;
 }
 .m01-item01:hover > .product-menu {
-    visibility: visible;
+    display: block;
 }
 .product-menu-ul {
     display: flex; 
@@ -75,25 +75,21 @@
     align-items: center;
     font-size: 19px; font-weight: 700;
 }
-.product-item  span {
-    color: gray;
-}
-.product-item:hover {
-    color: blue;
-}
+.product-item  span {color: gray;}
+.product-item:hover {color: blue;}
 .p-icon01, .p-icon02 {width: 24px;}
 .comu-menu {
     position: absolute;
     left: -30px; top: 100%;
     width: 180px;
-    visibility: hidden;
+    display: none;
     padding: 28px 24px;
     background-color: #FFFF;
     border: 1px solid #d4d4d4;
     border-radius: 12px;
 }
 .m01-item03:hover > .comu-menu {
-    visibility: visible;
+    display: block;
 }
 .comu-menu-ul {
     display: flex; gap: 10px;
@@ -105,16 +101,9 @@
     align-items: center;
     font-size: 19px; font-weight: 700;
 }
-.comu-item:hover {
-    color: blue;
-}
-.comu-icon {
-    width: 24px;
-}
-.download-box {
-    border: 1px solid red;
-    position: relative;
-}
+.comu-item:hover {color: blue;}
+.comu-icon {width: 24px;}
+.download-box {position: relative;}
 .download-btn {
     border: 1px solid #000;
     border-radius: 20px;
@@ -160,9 +149,7 @@
     font-size: 12px;
     color: #606060;
 }
-.item-text {
-    font-weight: 600;
-}
+.item-text {font-weight: 600;}
 .qr-area {
     padding-top: 12px; padding-bottom: 20px;
 }
@@ -178,9 +165,7 @@
     gap: 6px;
     font-size: 11px; font-weight: 600;
 }
-.qr-img {
-    width: 110px;
-}
+.qr-img {width: 110px;}
 .btn-text {
     display: flex;
     justify-content: center;
