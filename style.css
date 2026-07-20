@@ -6,16 +6,19 @@
 .popup img {
     height: 67px;
 }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 .top-bar {
     border: 1px solid orange;
-    background-color: #FFFF;
+    background-color: #ffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 88px;
     padding-left: 250px; padding-right: 250px;
-    position: fixed;
-    left: 0; right: 0;
 }
 .logo-menu {
     display: flex; gap: 80px;
@@ -220,6 +223,13 @@
 }
 .btm-item03 > a:hover > .dl-mac-hover {
     display: block;
+}
+main {
+    border: 1px solid black;
+}
+.hero-sld {
+    border: 1px solid red;
+    height: 880px;
 }
 
 
