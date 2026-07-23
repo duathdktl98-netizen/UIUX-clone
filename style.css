@@ -1,5 +1,6 @@
 .popup {
     background-color: #E5E9F1;
+    border: 1px solid #737373;
     display: flex;
     justify-content: center;
 }
@@ -18,14 +19,14 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 88px;
-    padding-left: 250px; padding-right: 250px;
+    padding-left: 260px; padding-right: 260px;
 }
 .logo-menu {
     display: flex; gap: 80px;
     align-items: center;
 }
 .logo-box img {
-    height: 30px;
+    height: 28px;
 }
 .menu01 {
     height: 100%;
@@ -235,6 +236,15 @@ main {
     height: 880px;
 }
 .hs-it01 {
+    position: relative;
+    height: 100%;
+}
+.hs-vid {
+    position: absolute;
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.hs-cont {
     border: 1px solid orange;
     display: flex; 
     flex-direction: column;
@@ -242,6 +252,31 @@ main {
     align-items: flex-start;
     height: 100%;
     padding-left: 260px; padding-right: 260px;
+    gap: 30px;
+    position: relative;
+    z-index: 1;
+}
+.hs-tit {
+    font-size: 72px; font-weight: 700;
+}
+.hs-desc {
+    font-size: 15px; line-height: 1.6;
+}
+.hs-down {
+    border: 1px solid red;
+}
+.hs-btn {
+    background-color: #ffff;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex; gap: 14px;
+    align-items: center;
+    padding: 18px 26px;
+}
+.hs-btn > img {width: 30px;}
+.hs-btn > span {
+    font-size: 15px; font-weight: 700;
+    text-align: left;
 }
 
 
