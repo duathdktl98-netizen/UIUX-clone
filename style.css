@@ -7,6 +7,7 @@
 .popup img {
     height: 67px;
 }
+/* 상단바 */
 header {
     position: sticky;
     top: 0;
@@ -225,9 +226,11 @@ header {
 .btm-item03 > a:hover > .dl-mac-hover {
     display: block;
 }
+/* 메인 */
 main {
     border: 1px solid black;
 }
+/* 히어로 */
 .hr-sec {
     margin-top: -90px;
 }
@@ -238,6 +241,7 @@ main {
 .hs-it01 {
     position: relative;
     height: 100%;
+    overflow: hidden;
 }
 .hs-vid {
     position: absolute;
