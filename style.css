@@ -59,7 +59,6 @@ header {
     left: -30px; top: 100%; 
     display: none;
     background-color: #FFFF;
-    border: 1px solid #d4d4d4;
     border-radius: 12px;
     padding: 28px 24px;
     width: 310px;
@@ -88,7 +87,6 @@ header {
     display: none;
     padding: 28px 24px;
     background-color: #FFFF;
-    border: 1px solid #d4d4d4;
     border-radius: 12px;
 }
 .m01-item03:hover > .comu-menu {
@@ -133,7 +131,6 @@ header {
     transform: translateY(1px);
 }
 .download-menu {
-    border: 1px solid #d4d4d4;
     border-radius: 12px;
     background-color: #FFFF;
     position: absolute;
@@ -240,7 +237,7 @@ main {
     height: 880px;
     position: relative;
 }
-.hs-it01 {
+.hs-it1 {
     position: relative;
     height: 100%;
     overflow: hidden;
@@ -347,4 +344,32 @@ main {
     background-color: #fff;
     width: 64px; height: 3px;
 }
-
+.pd-sec {
+    height: 1168px;
+    padding: 130px 280px; 
+}
+.pd-sld {
+    border: 1px solid orange;
+}
+.pd-it1 {
+    border: 1px solid green;
+}
+.pd-txt {
+    border: 1px solid blue;
+    display: flex; gap: 150px;
+    justify-content: space-between;
+}
+.pd-tit {
+    border: 1px solid red;
+    width: 410px;
+    font-size: 45px; font-weight: 700;
+}
+.pd-txt > p {
+    border: 1px solid green;
+    width: 550px;
+    color: #454545;
+    font-size: 17px; line-height: 1.6;
+}
+.pd-img > img {
+    width: 838px;
+}
