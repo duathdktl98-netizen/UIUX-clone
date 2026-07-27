@@ -397,3 +397,12 @@ main {
 .pd-t01 {font-size: 20px;}
 .pd-t02 {font-size: 14px;}
 .pd-arw {width: 28px;}
+.pd-ind {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.pd-bar {
+    background-color: #9c9c9c;
+    width: 372px; height: 3px;
+}
