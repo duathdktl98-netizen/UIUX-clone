@@ -398,7 +398,6 @@ main {
 .pd-t02 {font-size: 14px;}
 .pd-arw {width: 28px;}
 .pd-ind {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
@@ -406,3 +405,24 @@ main {
     background-color: #9c9c9c;
     width: 372px; height: 3px;
 }
+.pd-mov {
+    display: flex; gap: 10px;
+    justify-content: right;
+    padding-top: 70px; padding-bottom: 10px;
+}
+.pd-mov  img {
+    width: 50px;
+    cursor: pointer;
+}
+.pd-nxt {
+    transform: rotate(180deg);
+}
+.nxt01 {
+    position: relative;
+}
+.nxt02 {
+    position: absolute;
+    left: 0; top: 0;
+    display: none;
+}
+.pd-nxt:hover > .nxt02 {display: block;}
