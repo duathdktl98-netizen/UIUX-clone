@@ -227,7 +227,7 @@ header {
 main {
     border: 1px solid black;
 }
-/* 히어로 */
+/* 히어로 섹션 */
 .hr-sec {
     margin-top: -90px;
     border-bottom: 1px solid #000;
@@ -344,32 +344,34 @@ main {
     background-color: #fff;
     width: 64px; height: 3px;
 }
+/* 상품 소개 섹션 */
 .pd-sec {
-    height: 1168px;
-    padding: 130px 280px; 
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .pd-sld {
     border: 1px solid orange;
+    padding-bottom: 70px;
 }
 .pd-it1 {
-    border: 1px solid green;
+    width: 1160px;
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 .pd-txt {
-    border: 1px solid blue;
+    width: 1160px;
     display: flex; gap: 150px;
     justify-content: space-between;
 }
 .pd-tit {
-    border: 1px solid red;
     width: 410px;
     font-size: 45px; font-weight: 700;
 }
 .pd-txt > p {
-    border: 1px solid green;
     width: 550px;
     color: #454545;
     font-size: 17px; line-height: 1.6;
@@ -397,18 +399,10 @@ main {
 .pd-t01 {font-size: 20px;}
 .pd-t02 {font-size: 14px;}
 .pd-arw {width: 28px;}
-.pd-ind {
-    display: flex;
-    justify-content: space-between;
-}
-.pd-bar {
-    background-color: #9c9c9c;
-    width: 372px; height: 3px;
-}
 .pd-mov {
     display: flex; gap: 10px;
     justify-content: right;
-    padding-top: 70px; padding-bottom: 10px;
+    padding-top: 70px; padding-bottom: 16px;
 }
 .pd-mov  img {
     width: 50px;
@@ -426,3 +420,92 @@ main {
     display: none;
 }
 .pd-nxt:hover > .nxt02 {display: block;}
+.pd-ind {
+    display: flex; 
+    justify-content: space-between;
+}
+.pd-bar {
+    background-color: #9c9c9c;
+    width: 382px; height: 3px;
+}
+/* 기능 소개 섹션*/
+.ft-sec {
+    border: 1px solid red;
+    padding-top: 70px; padding-bottom: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ft-txt {
+    display: flex; gap: 130px;
+    justify-content: space-between;
+    width: 1160px;
+    margin-bottom: 80px;
+}
+.ft-tit {
+    border: 1px solid green;
+    width: 450px;
+    font-size: 45px; font-weight: 700;
+}
+.ft-txt > p {
+    border: 1px solid green;
+    width: 540px;
+    color: #454545;
+    font-size: 17px; line-height: 1.6;
+}
+.ft-cds {
+    border: 1px solid red;
+    width: 1160px;
+    display: flex; gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.ft-row {
+    border: 1px solid blue;
+    display: flex; gap: 20px;
+    width: 100%;
+}
+.fr1-c1 {
+    border: 1px solid green;
+    width: 362px; height: 362px;
+}
+.fr1-c2 {
+    border: 1px solid green;
+    flex-grow: 1;
+}
+.fr2-c1 {
+    border: 1px solid green;
+    height: 362px; width: 778px;
+}
+.fr2-c2 {
+    border: 1px solid green;
+    display: flex; gap: 20px;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.c2-top {
+    height: 171px;
+    display: flex; gap: 20px;
+}
+.c2-t1 {
+    border: 1px solid orange;
+    width: 171px;
+}
+.c2-t2 {
+    border: 1px solid orange;
+    flex-grow: 1;
+}
+.c2-btm {
+    border: 1px solid orange;
+    flex-grow: 1;
+}
+.fr3-c1 {
+    border: 1px solid green;
+    height: 362px; width: 362px;
+}
+.fr3-c2 {
+    border: 1px solid green;
+    flex-grow: 1;
+}
+
+
