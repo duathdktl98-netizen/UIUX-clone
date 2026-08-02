@@ -431,7 +431,7 @@ main {
 /* 기능 소개 섹션*/
 .ft-sec {
     border: 1px solid red;
-    padding-top: 70px; padding-bottom: 186px;
+    padding-top: 70px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -443,35 +443,29 @@ main {
     margin-bottom: 80px;
 }
 .ft-tit {
-    border: 1px solid green;
     width: 450px;
     font-size: 45px; font-weight: 700;
 }
 .ft-txt > p {
-    border: 1px solid green;
     width: 540px;
     color: #454545;
     font-size: 17px; line-height: 1.6;
 }
 .ft-cds {
-    border: 1px solid red;
     width: 1160px;
     display: flex; gap: 20px;
     align-items: center;
     flex-direction: column;
 }
 .ft-row {
-    border: 1px solid blue;
     display: flex; gap: 20px;
     width: 100%;
 }
 .fr1-c1 {
-    border: 1px solid green;
     width: 362px; height: 362px;
     flex-shrink: 0;
 }
 .fr1-c2 {
-    border: 1px solid green;
     flex-grow: 1;
 }
 .fr1-c1 > a, .fr1-c2 > a {
@@ -500,7 +494,6 @@ main {
     left: 50%; transform: translateX(-50%);
 }
 .fr2-c1 {
-    border: 1px solid green;
     height: 362px; width: 778px;
     flex-shrink: 0;
 }
@@ -511,7 +504,6 @@ main {
     width: 100%; height: 100%;
 }
 .fr2-c2 {
-    border: 1px solid green;
     display: flex; gap: 20px;
     flex-grow: 1;
     flex-direction: column;
@@ -521,30 +513,25 @@ main {
     display: flex; gap: 20px;
 }
 .c2-t1 {
-    border: 1px solid orange;
     width: 171px;
 }
 .c2-t2 {
-    border: 1px solid orange;
     flex-grow: 1;
 }
 .c2-t1 > img, .c2-t2 > img {
     width: 100%; height: 100%;
 }
 .c2-btm {
-    border: 1px solid orange;
     flex-grow: 1;
 }
 .c2-btm > img {
     width: 100%; height: 100%;
 }
 .fr3-c1 {
-    border: 1px solid green;
     height: 362px; width: 362px;
     flex-shrink: 0;
 }
 .fr3-c2 {
-    border: 1px solid green;
     flex-grow: 1;
 }
 .fr3-c1 > a, .fr3-c2 > a {
@@ -572,4 +559,6 @@ main {
     font-size: 25px; font-weight: 700;
     top: 35px; left: 32px;
 }
+/* 최신 정보 섹션 */
+
 
