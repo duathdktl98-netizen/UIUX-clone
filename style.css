@@ -468,14 +468,47 @@ main {
 .fr1-c1 {
     border: 1px solid green;
     width: 362px; height: 362px;
+    flex-shrink: 0;
 }
 .fr1-c2 {
     border: 1px solid green;
     flex-grow: 1;
 }
+.fr1-c1 > a, .fr1-c2 > a {
+    width: 100%; height: 100%;
+    position: relative;
+}
+.fr1-c1 img, .fr1-c2 img {
+    width: 100%; height: 100%;
+}
+.fr1-c1 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px; font-weight: 700;
+    top: 55px;
+    left: 50%; transform: translateX(-50%);
+}
+.fr1-c2 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 25px; font-weight: 700;
+    top: 55px;
+    left: 50%; transform: translateX(-50%);
+}
 .fr2-c1 {
     border: 1px solid green;
     height: 362px; width: 778px;
+    flex-shrink: 0;
+}
+.fr2-c1 > a {
+    width: 100%; height: 100%;
+}
+.fr2-c1 img {
+    width: 100%; height: 100%;
 }
 .fr2-c2 {
     border: 1px solid green;
@@ -495,17 +528,48 @@ main {
     border: 1px solid orange;
     flex-grow: 1;
 }
+.c2-t1 > img, .c2-t2 > img {
+    width: 100%; height: 100%;
+}
 .c2-btm {
     border: 1px solid orange;
     flex-grow: 1;
 }
+.c2-btm > img {
+    width: 100%; height: 100%;
+}
 .fr3-c1 {
     border: 1px solid green;
     height: 362px; width: 362px;
+    flex-shrink: 0;
 }
 .fr3-c2 {
     border: 1px solid green;
     flex-grow: 1;
 }
-
+.fr3-c1 > a, .fr3-c2 > a {
+    width: 100%; height: 100%;
+    position: relative;
+}
+.fr3-c1 img, .fr3-c2 img {
+    width: 100%; height: 100%;
+}
+.fr3-c1 span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 25px; font-weight: 700;
+    top: 165px;
+    left: 50%; transform: translateX(-50%);
+}
+.fr3-c2 span {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    line-height: 1.4;
+    color: #fff;
+    font-size: 25px; font-weight: 700;
+    top: 35px; left: 32px;
+}
 
