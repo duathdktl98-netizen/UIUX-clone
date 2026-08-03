@@ -430,7 +430,6 @@ main {
 }
 /* 기능 소개 섹션*/
 .ft-sec {
-    border: 1px solid red;
     padding-top: 70px; 
     display: flex;
     flex-direction: column;
@@ -560,5 +559,64 @@ main {
     top: 35px; left: 32px;
 }
 /* 최신 정보 섹션 */
+.if-sec {
+    border: 1px solid red;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.if-txt {
+    border: 1px solid red;
+    display: flex; gap: 130px;
+    justify-content: space-between;
+    width: 1160px;
+    margin-bottom: 80px;
+}
+.if-tit {
+    width: 450px;
+    font-size: 45px; font-weight: 700;
+}
+.if-txt > p {
+    width: 540px;
+    color: #454545;
+    font-size: 17px; line-height: 1.6;
+}
+.if-cds { 
+    border: 1px solid orange;
+    padding-top: 62px;
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+.if-c1 {
+    border: 1px solid green;
+}
+.if-c2 {
+    border: 1px solid blue;
+}
+.if-c3 {
+    border: 1px solid purple;
+}
+.if-it > a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.if-it  img {
+    width: 373px; 
+}
+.if-it p {
+    font-size: 25px; font-weight: 700;
+    width: 373px;
+    padding-top: 20px;
+}
+.if-more {
+    font-size: 20px; font-weight: 600;
+    display: flex;
+    padding-top: 50px;
+    margin-top: auto;
+}
+.if-more > img {width: 28px;}
 
 
