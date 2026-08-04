@@ -602,9 +602,20 @@ main {
     display: flex;
     flex-direction: column;
     height: 100%;
+    position: relative;
 }
-.if-it  img {
-    width: 373px; 
+.if-img {
+    border: 1px solid black;
+    position: relative;
+}
+.if-bg1, .if-bg2, .if-bg3  {
+    width: 373px;
+}
+.if-ic1, .if-ic2, .if-ic3 {
+    position: absolute;
+    width: 134px;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
 }
 .if-it p {
     font-size: 25px; font-weight: 700;
