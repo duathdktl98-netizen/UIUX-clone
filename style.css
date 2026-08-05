@@ -351,10 +351,7 @@ main {
     flex-direction: column;
     align-items: center;
 }
-.pd-sld {
-    border: 1px solid orange;
-    padding-bottom: 70px;
-}
+.pd-sld {padding-bottom: 70px;}
 .pd-it1 {
     width: 1160px;
     display: flex;
@@ -567,7 +564,6 @@ main {
     align-items: center;
 }
 .if-txt {
-    border: 1px solid red;
     display: flex; gap: 130px;
     justify-content: space-between;
     width: 1160px;
@@ -583,20 +579,10 @@ main {
     font-size: 17px; line-height: 1.6;
 }
 .if-cds { 
-    border: 1px solid orange;
     padding-top: 62px;
     width: 1160px;
     display: flex;
     justify-content: space-between;
-}
-.if-c1 {
-    border: 1px solid green;
-}
-.if-c2 {
-    border: 1px solid blue;
-}
-.if-c3 {
-    border: 1px solid purple;
 }
 .if-it > a {
     display: flex;
@@ -604,13 +590,8 @@ main {
     height: 100%;
     position: relative;
 }
-.if-img {
-    border: 1px solid black;
-    position: relative;
-}
-.if-bg1, .if-bg2, .if-bg3  {
-    width: 373px;
-}
+.if-img {position: relative;}
+.if-bg1, .if-bg2, .if-bg3  {width: 373px;}
 .if-ic1, .if-ic2, .if-ic3 {
     position: absolute;
     width: 134px;
@@ -628,6 +609,36 @@ main {
     padding-top: 50px;
     margin-top: auto;
 }
-.if-more > img {width: 28px;}
-
-
+.if-more:hover {color: #255DE4;}
+.if-more > svg {width: 28px;}
+/* 리뷰 섹션 */
+.rv-sec {
+    border: 1px solid red;
+    padding-top: 180px; padding-bottom: 180px;
+    display: flex;
+    justify-content: center;
+}
+.rv-box {
+    border: 1px solid orange;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    width: 1160px; height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.rv-box > p { 
+    text-align: center;
+    font-size: 26px; font-weight: 600; 
+}
+.rv-user > a {
+    border: 1px solid green;
+    display: flex; gap: 16px;
+    align-items: center;
+}
+.rv-user  img {width: 44px;}
+.rv-user  span {
+    font-size: 18px; font-weight: 500;
+}
