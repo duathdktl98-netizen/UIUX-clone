@@ -557,7 +557,6 @@ main {
 }
 /* 최신 정보 섹션 */
 .if-sec {
-    border: 1px solid red;
     padding-top: 180px;
     display: flex;
     flex-direction: column;
@@ -619,7 +618,6 @@ main {
     justify-content: center;
 }
 .rv-box {
-    border: 1px solid orange;
     background-color: #F9F9F9;
     border-radius: 20px;
     width: 1160px; height: 410px;
@@ -627,14 +625,23 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
 }
+.rv-dot {
+    display: flex; gap: 20px;
+}
+.rv-dot > span {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background-color: #DDDDDD;
+    cursor: pointer;
+}
+.rv-dot > .rv-on { background-color: #272727;}
 .rv-box > p { 
     text-align: center;
     font-size: 26px; font-weight: 600; 
 }
 .rv-user > a {
-    border: 1px solid green;
     display: flex; gap: 16px;
     align-items: center;
 }
@@ -642,3 +649,37 @@ main {
 .rv-user  span {
     font-size: 18px; font-weight: 500;
 }
+.ban-box {
+    border: 1px solid red;
+    width: 100%; height: 380px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box
+}
+.ban-box > img {
+    height: 100%; width: 100%;
+    object-fit: cover;
+}
+.ban-con {
+    border: 1px solid red;
+    position: absolute;
+    inset: 0;
+    display: flex; gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ban-con > p {
+    text-align: center;
+    font-size: 40px; font-weight: 700;
+}
+.ban-btn { 
+    background-color: #1E1E1E;
+    padding: 16px 30px;
+    border-radius: 50px;
+    display: flex; gap: 10px;
+    align-items: center;
+    color: #FFF;
+    font-weight: 600;
+}
+.ban-btn> img {width: 26px;}
