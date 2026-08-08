@@ -123,7 +123,7 @@ header {
     background: #000;
     color : white;
 }
-.download-btn:hover > svg {
+.download-box:hover svg {
     transform: translateY(1px) rotate(180deg);
 }
 .arrow-icon {
@@ -133,6 +133,7 @@ header {
 .download-menu {
     border-radius: 12px;
     background-color: #FFFF;
+    border: 1px solid #d4d4d4;
     position: absolute;
     right: 0; top: calc(100% + 5px);
     display: none;
@@ -156,6 +157,7 @@ header {
 .top-item01 {
     font-size: 12px;
     color: #606060;
+    cursor: default;
 }
 .item-text {font-weight: 600;}
 .top-item02 > a, .top-item03 > a {
@@ -185,7 +187,7 @@ header {
     justify-content: space-between;
     padding-bottom: 10px;
 }
-.qr-item > a {
+.qr-item  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,6 +215,7 @@ header {
 .btm-item01 {
     font-size: 12px;
     color: #606060;
+    cursor: default;
 }
 .btm-item02 > a, .btm-item03 > a {
     position: relative;
@@ -224,14 +227,8 @@ header {
     display: block;
 }
 /* 메인 */
-main {
-    border: 1px solid black;
-}
 /* 히어로 섹션 */
-.hr-sec {
-    margin-top: -90px;
-    border-bottom: 1px solid #000;
-}
+.hr-sec {margin-top: -90px;}
 .hero-sld {
     background-color: #d4d4d4;
     height: 880px;
@@ -679,3 +676,32 @@ main {
     font-weight: 600;
 }
 .ban-btn> img {width: 26px;}
+/* footer */
+.fot-box {
+    /* background-color: #0D0D0D; */
+    background-color: #ddd;
+    width: 100%; height: 398px;
+    padding-top: 50px; padding-bottom: 50px;
+    display: flex; 
+    flex-direction: column;
+    justify-self: center;
+}
+.fot-mn {
+    border: 1px solid red;
+    width: 1160px;
+    display: flex; gap: 20px;
+    justify-content: space-between;
+}
+.fot-li {
+    display: flex; gap: 20px;
+    justify-self: center;
+}
+.fot-lag { 
+    border: 1px solid green;
+}
+.fot-if {
+    border: 1px solid red;
+}
+.fot-bt {
+    border: 1px solid red;
+}
