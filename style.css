@@ -678,13 +678,12 @@ header {
 .ban-btn> img {width: 26px;}
 /* footer */
 .fot-box {
-    /* background-color: #0D0D0D; */
-    background-color: #ddd;
+    background-color: #0D0D0D;
     width: 100%; height: 398px;
     padding-top: 50px; padding-bottom: 50px;
     display: flex; 
     flex-direction: column;
-    justify-self: center;
+    align-items: center;
 }
 .fot-mn {
     border: 1px solid red;
@@ -693,11 +692,25 @@ header {
     justify-content: space-between;
 }
 .fot-li {
-    display: flex; gap: 20px;
-    justify-self: center;
+    border: 1px solid orange;
+    display: flex; gap: 30px;
+}
+.fm-itm {
+    border: 1px solid blue;
+    width: 160px; 
+}
+.fm-tit {
+    color: #F9F9F9;
+    font-size: 14px; font-weight: 700;
+}
+.fm-sub {
+    margin-top: 10px;
+    font-size: 14px;  color: #D8D8D8;
+    line-height: 2;
 }
 .fot-lag { 
     border: 1px solid green;
+    color: #F9F9F9;
 }
 .fot-if {
     border: 1px solid red;
