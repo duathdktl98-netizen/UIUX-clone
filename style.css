@@ -686,14 +686,13 @@ header {
     align-items: center;
 }
 .fot-mn {
-    border: 1px solid red;
     width: 1160px;
     display: flex; gap: 20px;
     justify-content: space-between;
+    padding-bottom: 60px;
 }
 .fot-li {
-    border: 1px solid orange;
-    display: flex; gap: 30px;
+    display: flex; gap: 40px;
 }
 .fm-itm {width: 160px; }
 .fm-tit {
@@ -703,38 +702,79 @@ header {
 .fm-sub {
     margin-top: 10px;
     font-size: 14px;  color: #D8D8D8;
-    line-height: 2;
+    line-height: 2.2;
 }
+.fm-sub > li:hover { color: #F9F9F9;}
 .fot-dw {
     position: relative;
     align-self: flex-start;
 }
 .fot-lag { 
-    border-radius: 4px;
+    border-radius: 2px;
     background-color: #343434;
     color: #F9F9F9;
     padding: 8px 16px;
-    display: flex;  gap: 20px;
+    display: flex;  gap: 30px;
     font-size: 14px;
+    cursor: pointer;
 }
 .fot-lag img { width: 12px;}
 .bt-sel { 
     position: absolute;
+    display: none;
     left: 0; right: 0; top: calc(100% + 2px);
     border-radius: 2px;
     background-color: #343434;
+    cursor: pointer;
+}
+.bt-sel > ul {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+}
+.fot-dw:hover .bt-sel {
+    display: block;
+}
+.fot-dw:hover .fot-lag img {
+    transform: rotate(180deg);
 }
 .lag-itm {
     padding: 8px 16px;
     font-size: 14px;
     color: #F9F9F9;
 }
-.fot-if {
-    border: 1px solid red;
+.lag-itm:hover {
+    background-color: #5c5c5c;
 }
+.fot-if {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1160px;
+    padding-top: 30px;
+    display: flex; justify-content: space-between;
+}
+.bus-if span { 
+    color: #909090;
+    font-size: 12px;
+}
+.if-biz span + span::before,
+.if-adr span + span::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    margin: 0 10px;
+    background-color: #909090;
+    vertical-align: -3px;
+}
+.if-adr {
+    font-style: normal;
+    margin-top: 4px;
+}
+.if-adr a {display: inline;}
+.fot-icon {
+    display: flex; gap: 10px;
+    color: #909090;
+}
+.fot-icon a:hover {color: #fff;}
 .fot-bt {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
