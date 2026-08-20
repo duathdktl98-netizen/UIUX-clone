@@ -793,3 +793,4 @@ header {
     margin: 0 10px;
     background-color: #3a3a3a;
 }
+.bt-ntc > a:hover {color: #fff;}
