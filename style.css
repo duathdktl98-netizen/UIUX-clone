@@ -679,7 +679,7 @@ header {
 /* footer */
 .fot-box {
     background-color: #0D0D0D;
-    width: 100%; height: 396px;
+    width: 100%; 
     padding-top: 50px; padding-bottom: 50px;
     display: flex; 
     flex-direction: column;
@@ -759,10 +759,9 @@ header {
 .if-adr span + span::before {
     content: "";
     display: inline-block;
-    width: 1px;
-    height: 14px;
+    width: 1px; height: 14px;
     margin: 0 10px;
-    background-color: #909090;
+    background-color: #3a3a3a;
     vertical-align: -3px;
 }
 .if-adr {
@@ -775,3 +774,22 @@ header {
     color: #909090;
 }
 .fot-icon a:hover {color: #fff;}
+.fot-bt {
+    width: 1160px;
+    padding-top: 36px;
+    display: flex; justify-content: space-between;
+}
+.fot-bt img {height: 22px;}
+.fot-cp {color: #726e6e;}
+.bt-nav > ul {display: flex;}
+.bt-ntc {
+    color: #D8D8D8;
+    font-size: 14px; font-weight: 500;
+    display: flex;
+}
+.bt-ntc + .bt-ntc::before {
+    content: "";
+    width: 1px; height: 14px;
+    margin: 0 10px;
+    background-color: #3a3a3a;
+}
